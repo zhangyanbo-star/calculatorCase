@@ -1,0 +1,52 @@
+"id_alias":
+  - "positive"
+  - "zero"
+  - "negative"
+  - "big"
+  - "mixing"
+  - "float"
+  - "nullnumber"
+  - "notnumber"
+
+"addition_data":
+  - [10,20,30]
+  - [0,0,0]
+  - [-20,-30,-50]
+  - [100000000,200000000,300000000]
+  - [10,-2,8]
+  - [0.111,0.222,0.333]
+  - [5,"","param can not be null"]
+  - ["z",3,"param should be number"]
+
+"division_data":
+  - [10,20,0.5]
+  - [1,0,"divisor cannot be zero"]
+  - [-20,-20,1]
+  - [200000000,100000000,2]
+  - [-8,10,-0.8]
+  - [0.111,0.222,0.5]
+  - [5,"","param can not be null"]
+  - ["z",3,"param should be number"]
+
+"subtraction_data":
+  - [10,20,-10]
+  - [0,0,0]
+  - [-20,-30,10]
+  - [100000000,200000000,-100000000]
+  - [10,-2,12]
+  - [0.111,0.222,-0.111]
+  - [5,"c","param can not be null"]
+  - ["z",3,"param should be number"]
+
+"multiplication_data":
+  - [10,20,200]
+  - [0,0,0]
+  - [-20,-30,600]
+  - [100000000,200000000,20000000000000000]
+  - [-8,10,-80]
+  - [0.111,0.222,0.024642]
+  - [5,"","param can not be null"]
+  - ["3",3,"param should be number"]
+
+
+
